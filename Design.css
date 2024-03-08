@@ -1,0 +1,148 @@
+.container {
+    display: flex;
+    max-width: 80vw;
+    margin: 20px auto;
+    background: #ccccd9;
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-column{
+    margin-left: 200px;
+    margin-top: 0%;
+}
+
+.right-column{
+    margin-top: 0%;
+    max-width: 40vw;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.notification {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.Left{
+    margin-left: 40px;
+}
+
+
+@font-face {
+    font-family: "MTNBrighterSans";
+    src: url(Fonts/MTNBrighterSans-Light.otf);
+}
+
+
+body {
+    background-color: #bfbfce; /* Default background color */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    font-family: "MTNBrighterSans";
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color:  #ccccd9;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    border-radius: 5px;
+    margin-left: 28px;
+    margin-top: 10px;
+    font-family: "MTNBrighterSans";
+}
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccccd9;
+    width: 18.5vw;
+    border: 1px solid rgb(8, 8, 8);
+    font-family: "MTNBrighterSans";
+}
+
+select{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccccd9;
+    width: 20vw;
+    border: 1px solid rgb(8, 8, 8);
+    font-family: "MTNBrighterSans";
+}
+
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    height: 100px; /* Adjust height as needed */
+    width: 19.6vw;
+    font-family: "MTNBrighterSans";
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccccd9;
+    width: 20vw;
+    border: 1px solid rgb(8, 8, 8);
+    font-family: "MTNBrighterSans";
+}
+
+#index {
+    text-align: center;
+    padding: 10rem;
+}
+
+#index h2 {
+    font-family: "MTNBrighterSans";
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#index p {
+    font-family: "MTNBrighterSans";
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cont {
+    max-width: 80vw;
+    margin: 20px auto;
+    background: #ccccd9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout-btn {
+    margin-right: 20px;
+}
